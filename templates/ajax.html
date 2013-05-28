@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+{% block head %}
+    {{ super() }}
+    <script type="text/javascript" src="/js/ajax.js"></script>
+    <script type="text/javascript" src="/js/json2.js"></script>
+{% endblock %}
+
+
+
+{% block menu %}
+    <li><a href="/">Home</a></li>
+    <li class="active"><a href="/ajax">Ajax</a></li>
+    <li><a href="/login">Login</a></li>
+    <li><a href="/signup">Signup</a></li>
+    <li><a href="/websocket" onclick="popupWindow('/messenger_websocket')">Web Sockets</a></li>
+    <li><a href="/signup">File Uploader</a></li>
+{% endblock %}
+
+{% block body %}
+    <div class="container">
+        <form class="form-signin">
+            <h3>{{title}}</h3>
+            <table>
+                <tr>
+                    <td align="right">Number 1: <input id="num1" type="text" value="1">
+                        <br> Number 2:
+                        <input id="num2" type="text" value="2" />
+                        <br>
+                        <input type="button" value="Add" onclick="doAdd()" style="width:100%" />
+                        <br>
+                        <br>
+                        Result:
+                        <input id="result" type="text" value="" readonly="true" disabled="true" />
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div> <!-- /container -->
+
+{% endblock %}

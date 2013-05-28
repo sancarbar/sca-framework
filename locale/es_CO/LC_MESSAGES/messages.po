@@ -1,0 +1,167 @@
+# Spanish (Colombia) translations for sca-framework.
+# Copyright (C) 2012 ORGANIZATION
+# This file is distributed under the same license as the  project.
+# SANTIAGO CARRILLO <SANCARBAR@GMAIL.COM>, 2012.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version:  1\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2012-11-09 23:51+0100\n"
+"PO-Revision-Date: 2012-11-09 23:58+0100\n"
+"Last-Translator: SANTIAGO CARRILLO <SANCARBAR@GMAIL.COM>\n"
+"Language-Team: SPANISH <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 0.9.6\n"
+
+#: locale/messages.py:11
+msgid "Menu"
+msgstr "Menú"
+
+#: locale/messages.py:12
+msgid "Comments"
+msgstr "Comentarios"
+
+#: locale/messages.py:13
+msgid "language"
+msgstr "idioma"
+
+#: locale/messages.py:14
+msgid "View"
+msgstr "Ver"
+
+#: locale/messages.py:15
+msgid "Name"
+msgstr "Nombre"
+
+#: locale/messages.py:16
+msgid "Description"
+msgstr "Descripción"
+
+#: locale/messages.py:17
+msgid "Status"
+msgstr "Estado"
+
+#: locale/messages.py:18
+msgid "Disable"
+msgstr "Desactivado"
+
+#: locale/messages.py:19
+msgid "Enable"
+msgstr "Activado"
+
+#: locale/messages.py:20
+msgid "Image"
+msgstr "Imagen"
+
+#: locale/messages.py:21
+msgid "None"
+msgstr "Ninguna"
+
+#: locale/messages.py:22
+msgid "Save"
+msgstr "Guardar"
+
+#: locale/messages.py:23
+msgid "Update"
+msgstr "Actualizar"
+
+#: locale/messages.py:24
+msgid "Delete"
+msgstr "Borrar"
+
+#: locale/messages.py:25
+msgid "Quantity"
+msgstr "Cantidad"
+
+#: locale/messages.py:26
+msgid "Rate"
+msgstr "Calificación"
+
+#: locale/messages.py:27
+msgid "Price"
+msgstr "Precio"
+
+#: locale/messages.py:28
+msgid "Password"
+msgstr "Contraseña"
+
+#: locale/messages.py:29
+msgid "Username"
+msgstr "Usuario"
+
+#: locale/messages.py:31
+msgid "Login"
+msgstr "Acceder"
+
+#: locale/messages.py:31
+msgid "Email"
+msgstr "Correo Electrónico"
+
+#: locale/messages.py:32
+msgid "Verify Password"
+msgstr "Verificar Contraseña"
+
+#: locale/messages.py:33
+msgid "Add"
+msgstr "Agregar"
+
+#: locale/messages.py:34
+msgid "All"
+msgstr "Todos"
+
+#: locale/messages.py:35
+msgid "Close"
+msgstr "Cerrar"
+
+#: locale/messages.py:36
+msgid "Submit"
+msgstr "Enviar"
+
+#: locale/messages.py:37
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: locale/messages.py:38
+msgid "Attribute required"
+msgstr "Campo obligatorio"
+
+#: locale/messages.py:39
+msgid "uploaded file error"
+msgstr "El archivo adjunto es muy grande, el tamaño máximo es de 1MB"
+
+#: locale/messages.py:40
+msgid "invalid user name"
+msgstr "Nombre de usuario inválido."
+
+#: locale/messages.py:41
+msgid "invalid password"
+msgstr "La contraseña no es válida."
+
+#: locale/messages.py:42
+msgid "invalid passwords match"
+msgstr "Las contraseñas no coinciden."
+
+#: locale/messages.py:43
+msgid "user already exists"
+msgstr "Este usuario ya fué registrado."
+
+#: locale/messages.py:44
+msgid "invalid login"
+msgstr "El nombre de usuario o la contraseña introducidos no son correctos."
+
+#: locale/messages.py:45
+msgid "invalid email"
+msgstr "Correo electrónico inválido."
+
+#: locale/messages.py:46
+msgid "delete estate confirmation"
+msgstr "¿esta seguro que desea borrar el inmueble ?"
+
+#: locale/messages.py:47
+msgid "Uploaded Image"
+msgstr "Imagen subida"

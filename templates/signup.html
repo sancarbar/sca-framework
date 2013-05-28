@@ -1,0 +1,46 @@
+{% extends "base.html" %}
+{% block title %}Signup{% endblock %}
+
+
+{% block menu %}
+    <li><a href="/">Home</a></li>
+    <li><a href="/ajax">Ajax</a></li>
+    <li><a href="/login">Login</a></li>
+    <li class="active"><a href="/signup">Signup</a></li>
+    <li><a href="/websocket" onclick="popupWindow('/messenger_websocket')">Web Sockets</a></li>
+    <li><a href="/signup">File Uploader</a></li>
+{% endblock %}
+
+
+{% block body %}
+
+    <div class="container">
+
+        <form class="form-signin" method="post">
+
+            <fieldset>
+
+                <legend>Signup</legend>
+                <label>Username</label>
+                <input type="text" name="username" value="{{username}}">
+                <div class="error">{{errorUsername}}</div>
+
+                <label>Password</label>
+                <input type="password" name="password" value="">
+                <div class="error">{{errorPassword}}</div>
+
+                <label>Verify Password</label>
+                <input type="password" name="verify" value="">
+                <div class="error">{{errorVerify}}</div>
+
+                <label>Email (optional)</label>
+                <input type="text" name="email" value="{{email}}">
+                <div class="error">{{errorEmail}}</div>
+
+            </fieldset>
+             <button type="submit" class="btn">Submit</button>
+
+        </form>
+    </div>
+
+{% endblock %}

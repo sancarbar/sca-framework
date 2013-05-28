@@ -1,0 +1,168 @@
+# English (United States) translations for sca-framework.
+# Copyright (C) 2012 ORGANIZATION
+# This file is distributed under the same license as the  project.
+# SANTIAGO CARRILLO <SANCARBAR@GMAIL.COM>, 2012.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version:  1\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2012-11-09 23:51+0100\n"
+"PO-Revision-Date: 2012-11-09 23:58+0100\n"
+"Last-Translator: SANTIAGO CARRILLO <SANCARBAR@GMAIL.COM>\n"
+"Language-Team: SPANISH <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 0.9.6\n"
+
+#: locale/messages.py:11
+msgid "Menu"
+msgstr ""
+
+#: locale/messages.py:12
+msgid "Comments"
+msgstr ""
+
+#: locale/messages.py:13
+msgid "language"
+msgstr ""
+
+#: locale/messages.py:14
+msgid "View"
+msgstr ""
+
+#: locale/messages.py:15
+msgid "Name"
+msgstr ""
+
+#: locale/messages.py:16
+msgid "Description"
+msgstr ""
+
+#: locale/messages.py:17
+msgid "Status"
+msgstr ""
+
+#: locale/messages.py:18
+msgid "Disable"
+msgstr ""
+
+#: locale/messages.py:19
+msgid "Enable"
+msgstr ""
+
+#: locale/messages.py:20
+msgid "Image"
+msgstr ""
+
+#: locale/messages.py:21
+msgid "None"
+msgstr ""
+
+#: locale/messages.py:22
+msgid "Save"
+msgstr ""
+
+#: locale/messages.py:23
+msgid "Update"
+msgstr ""
+
+#: locale/messages.py:24
+msgid "Delete"
+msgstr ""
+
+#: locale/messages.py:25
+msgid "Quantity"
+msgstr ""
+
+#: locale/messages.py:26
+msgid "Rate"
+msgstr ""
+
+#: locale/messages.py:27
+msgid "Price"
+msgstr ""
+
+#: locale/messages.py:28
+msgid "Password"
+msgstr ""
+
+#: locale/messages.py:29
+msgid "Username"
+msgstr ""
+
+#: locale/messages.py:30
+msgid "Login"
+msgstr ""
+
+#: locale/messages.py:31
+msgid "Email"
+msgstr ""
+
+
+#: locale/messages.py:32
+msgid "Verify Password"
+msgstr ""
+
+#: locale/messages.py:33
+msgid "Add"
+msgstr ""
+
+#: locale/messages.py:34
+msgid "All"
+msgstr ""
+
+#: locale/messages.py:35
+msgid "Close"
+msgstr ""
+
+#: locale/messages.py:36
+msgid "Submit"
+msgstr ""
+
+#: locale/messages.py:37
+msgid "Cancel"
+msgstr ""
+
+#: locale/messages.py:38
+msgid "Attribute required"
+msgstr ""
+
+#: locale/messages.py:39
+msgid "uploaded file error"
+msgstr "The uploaded is too big, max size allowed is 1MB"
+
+#: locale/messages.py:40
+msgid "invalid user name"
+msgstr "That's not a valid username."
+
+#: locale/messages.py:41
+msgid "invalid password"
+msgstr "That wasn't a valid password."
+
+#: locale/messages.py:42
+msgid "invalid passwords match"
+msgstr "Your passwords didn't match."
+
+#: locale/messages.py:43
+msgid "user already exists"
+msgstr "That user already exists."
+
+#: locale/messages.py:44
+msgid "invalid login"
+msgstr ""
+
+#: locale/messages.py:45
+msgid "invalid email"
+msgstr "That's not a valid email."
+
+#: locale/messages.py:46
+msgid "delete estate confirmation"
+msgstr "Are you sure you want to delete the estate ?"
+
+#: locale/messages.py:47
+msgid "Uploaded Image"
+msgstr ""

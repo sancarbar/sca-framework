@@ -42,7 +42,13 @@
                 <ul class="nav">
                     {% block menu %}{% endblock %}
                 </ul>
-            </div><!--/.nav-collapse -->
+            </div>
+            <div class="pagination-right user-login">
+                {% if user %}
+                    {{ user.name }}
+                    <a href="/logout">(logout)</a>
+                {% endif %}
+            </div>
         </div>
     </div>
 </div>
@@ -51,5 +57,6 @@
 
 <script src="http://code.jquery.com/jquery.js"></script>
 <script src="js/bootstrap.min.js"></script>
+<script src="js/utils.js"></script>
 </body>
 </html>

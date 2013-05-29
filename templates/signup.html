@@ -16,29 +16,48 @@
 
     <div class="container">
 
-        <form class="form-signin" method="post">
+        <form class="form-signin" method="post" id="signup-form">
 
             <fieldset>
 
                 <legend>Signup</legend>
-                <label>Username</label>
-                <input type="text" name="username" value="{{username}}">
-                <div class="error">{{errorUsername}}</div>
 
-                <label>Password</label>
-                <input type="password" name="password" value="">
-                <div class="error">{{errorPassword}}</div>
 
-                <label>Verify Password</label>
-                <input type="password" name="verify" value="">
-                <div class="error">{{errorVerify}}</div>
+                <div class="control-group" id="control-group-username">
+                    <label class="control-label" for="username">Username *</label>
+                    <div class="controls">
+                        <input type="text" id="username" name="username" value="{{username}}">
+                        <span class="help-inline" id="username_error">{{errorUsername}}</span>
+                    </div>
+                </div>
 
-                <label>Email (optional)</label>
-                <input type="text" name="email" value="{{email}}">
-                <div class="error">{{errorEmail}}</div>
+                <div class="control-group" id="control-group-password">
+                    <label class="control-label" for="password">Password *</label>
+                    <div class="controls">
+                        <input type="password" id="password" name="password">
+                        <span class="help-inline" id="password_error">{{errorPassword}}</span>
+                    </div>
+                </div>
+
+                <div class="control-group" id="control-group-verify">
+                    <label class="control-label" for="verify">Verify Password *</label>
+                    <div class="controls">
+                        <input type="password" id="verify" name="verify">
+                        <span class="help-inline" id="verify_error">{{errorVerify}}</span>
+                    </div>
+                </div>
+
+                <div class="control-group" id="control-group-email">
+                    <label class="control-label" for="email">Email *</label>
+                    <div class="controls">
+                        <input type="text" id="email" name="email" value="{{email}}">
+                        <span class="help-inline" id="email_error">{{errorEmail}}</span>
+                    </div>
+                </div>
+
 
             </fieldset>
-             <button type="submit" class="btn">Submit</button>
+            <button type="button" onclick="validateSignUpForm('signup-form');" class="btn">Signup</button>
 
         </form>
     </div>

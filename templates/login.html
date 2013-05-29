@@ -15,14 +15,22 @@
 
     <div class="container">
 
-        <form class="form-signin" action="/login">
+        <form class="form-signin" action="/login" method="post">
             <h2 class="form-signin-heading">Please Login</h2>
-            <input type="text" class="input-block-level" placeholder="username" name="username" value="{{username}}">
-            <input type="password" class="input-block-level" placeholder="Password" name="password">
-            <label class="checkbox">
-                <input type="checkbox" value="remember-me"> Remember me
-            </label>
-            <button class="btn btn-small btn-primary" type="submit">Sign in</button>
+
+
+            <div class="control-group">
+                <label class="control-label" for="username">Username</label>
+                <div class="controls">
+                    <input type="text" id="username" name="username" value="{{username}}">
+                </div>
+                    <label class="control-label" for="password">Password</label>
+                <div class="controls">
+                    <input type="password" id="password" name="password" value="{{username}}">
+                </div>
+                <span class="text-error">{{ error }}</span>
+            </div>
+            <button class="btn btn-small btn-primary" type="submit">Login</button>
         </form>
 
     </div> <!-- /container -->

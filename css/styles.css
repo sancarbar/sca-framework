@@ -29,3 +29,13 @@ body {
     margin-bottom: 15px;
     padding: 7px 9px;
 }
+
+.user-login{
+    color: #999;
+    padding: 10px 15px 10px;
+}
+
+.user-login a{
+    color: #fff;
+    padding-left: 5px;
+}
